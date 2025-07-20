@@ -1,0 +1,227 @@
+:root{
+    --blue : #0074d9;
+}
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            min-height: 100vh;
+            background-color: #ebebeb;
+        }
+
+        /* Header Start */
+
+        .header{
+            height: 70px;
+            width: 100%;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+
+        /* logo */
+
+        .logobox{
+            height: 70px;
+            width: 160px;
+            float: left;
+            margin-left: 50px;
+            margin-right: 55px;
+        }
+        .logo{
+            height: 100%;
+            width: 100%;
+            padding-bottom: 20px;
+            margin-top: 5px;
+        }
+        .logo:hover{
+            size: 50%;
+        }
+        .logo img{
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Logo */
+
+
+        /* SearchBar */
+
+        .searchbox{
+            height: 70px;
+            width: 600px;
+            float: left;
+        }
+        .searchbar{
+            height: 40px;
+            width: 100%;
+            margin-top: 15px;
+            z-index: 2;
+
+        }
+        .searchbar input{
+            width: 100%;
+            height: 40px;
+            border-style: none;
+            background-color: #ebebeb;
+            border: 2px solid #ebebeb;
+            border-radius: 10px;
+            padding-left: 35px;
+        }
+        .searchimg{
+            height: 20px;
+            width: 20px;
+            z-index: 1;
+            position: absolute;
+            margin-top: -27px;
+        }
+        .searchimg img{
+            height: 15px;
+            width: 15px;
+            margin-left: 12px;
+
+        }
+
+        /* SearchBar */
+
+
+        /* Login */
+
+        .loginbox{
+            height: 70px;
+            width: 70px;
+            float: right;
+            margin-right: 40px;
+        }
+        .login{
+            margin-top: 20px;
+            padding-left: 15px;
+            line-height: 30px;
+        }
+        .login a{
+            text-decoration: none;
+            color: var(--blue);
+        }
+        .login div{
+            font-size: large;
+            font-weight: bold;
+            font-family: Comic Sans MS;
+        }
+
+        /* Login */
+
+
+        /* SignUp */
+
+        .signupbox{
+            height: 70px;
+            width: 80px;
+            float: right;
+            margin-right: 30px;
+        }
+        .signup{
+            margin-top: 20px;
+            padding-left: 10px;
+            line-height: 30px;
+        }
+        .signup a{
+            text-decoration: none;
+            color: var(--blue);
+        }
+        .signup div{
+            font-size: large;
+            font-weight:bold;
+            font-family: Comic Sans MS;
+        }
+
+        /* SignUp */
+
+
+        /* CartImg */
+
+        .cartbox{
+            height: 70px;
+            width: 80px;
+            float: right;
+            margin-right: 30px;
+        }
+        .cart{
+            height: 50px;
+            width: 50px;
+            margin-top: 10px;
+            margin-left: 15px; 
+        }
+        .cart img{
+            height: 50px;
+            width: 50px;
+        }
+
+        /* CartImg */
+
+
+        /* Header End */
+
+
+        /* Main Start */
+
+        .main{
+            height: 1000px;
+            width: 100%;
+        }
+
+        .autoslide{
+            height: 300px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        
+        /* slider */
+        
+        .slider {
+          width: 100%;
+          height: 300px;
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .slide {
+          width: 100%;
+          height: 100%;
+          display: none;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        
+        button {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: rgba(0,0,0,0.5);
+          color: white;
+          border: none;
+          padding: 8px;
+          cursor: pointer;
+        }
+        
+        button:nth-child(4) { left: 10px; }  /* prev button */
+        button:nth-child(5) { right: 10px; } /* next button */
+        
+        /* slider */
+
+        /* Main End */
+
+
+
+        /* Footer Start */
+
+        .footer{
+            height: 300px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.938);
+            border: 2px solid red;
+        }
+
+        /* Footer Start */
